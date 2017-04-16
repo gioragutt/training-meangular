@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
+## Live NodeJS Server with TodosAPI
+
+Run `npm run server` or `npm run server-prod`. The command builds the app with `ng build` or `ng build --prod` and runs the nodejs server with `node server.js`.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
