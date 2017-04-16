@@ -10,9 +10,9 @@ const db = mongojs(`mongodb://${USERNAME}:${PASSWORD}@ds161890.mlab.com:61890/tr
 const mongoOperationCallback = (res) => {
     return (error, result) => {
         if (error) {
-            res.send(error)
+            res.status(400).send(error)
         } else {
-            res.json(result);
+            res.status(200).json(result);
         }
     }
 };
